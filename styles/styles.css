@@ -132,6 +132,48 @@ nav ul li a {
     color: #131313;
 }
 
+
+/* speciality section styles */
+#speciality .speciality-container {
+    display: flex;
+    gap: 30px;
+}
+#speciality .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+#speciality .speciality-content p {
+    margin-bottom: 30px;
+}
+#speciality .speciality-content .speciality-card {
+    margin-bottom: 1rem;
+    padding: 1rem 2.5rem;
+}
+#speciality .speciality-content .speciality-card h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+#speciality .img-speciality {
+    width: 90%;
+    margin-left: 20px;
+}
+#speciality .img-speciality .badge {
+    padding: 2.5rem;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: -3rem;
+    bottom: 7rem;
+}
+#speciality .img-speciality .badge h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+
 /* facts-content -jcontainer */
 #facts-section .facts-content-text {
     width: 50%;
@@ -168,8 +210,6 @@ nav ul li a {
     font-weight: 600;
     font-size: 1rem;
 }
-
-
 
 
 /* tab device */
